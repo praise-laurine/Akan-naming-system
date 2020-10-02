@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Naming</title>
+    <link href="bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="jumbotron">
+      <h1>Akan naming system</h1> 
+    </div>
+    <div class="bwd">
+      <p>The <strong>Akan</strong> people of <strong>Ghana</strong> frequently name their children after the day of the week they were born and the order in which they were born.<br> These "day names" have further meanings concerning the soul and character of the person.<br> Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.This brings out a symbol of cultural integrity and ancestral affiliation.</p>
+    <img class="akan" src="/images/akanchild.jpg" height="500px" width="500px">  
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h2>Please fill pout this form to know what your Akan name is</h2>
+        <form>
+          <div class="form-group">
+            <label for="century">Century</label>
+            <input type="number" class="form-control" id="century" placeholder="Enter the century you were born" required min="0" max="30">
+          </div>
+          <div class="form-group">
+            <label for="year">Year</label>
+            <input type="number" class="form-control" id="year" placeholder="Enter the year of birth" required min="0" max="100">
+          </div>
+          <div class="form-group">
+            <label for="month">Month</label>
+            <input type="number" class="form-control" id="month" placeholder="Enter month of the year" required min="0" max="12">
+          </div>
+          <div class="form-group">
+            <label for="monthDay">Day of month</label>
+            <input type="number" class="form-control" id="monthDay" placeholder="Enter day of month you were born" required min="0" max="31">
+          </div>
+          <form class="radio-button">
+            <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
+            <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
+          </form>
+          <a href="#result"><button type="submit" name="submit" class="btn btn-primary" onclick="checkDayOfWeek();">Submit</button></a>
+          <h1 id="result"></h1>
+        </form>
+        
+          
+    
+
+      </div>
+    </div>
+    
+</body>
+</html>
