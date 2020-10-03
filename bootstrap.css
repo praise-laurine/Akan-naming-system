@@ -26,5 +26,10 @@ h1{
 .card{
     align-items: center;
 }
+.system p{
+    text-align: center;
+    font-size: 20px;
+
+}
 
   
