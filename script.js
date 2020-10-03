@@ -12,7 +12,17 @@ function checkDayOfWeek() {
   let MM = month;
   let CC = century;
   let MD = monthDay;
-  let genders = rad1;
+
+  let d =parseInt(((CC / 4) - 2 * CC - 1) + (5 * YY / 4) + (26 * (MM + 1) / 10) + MD % 7)
+
+  if (MD < 1 || MD > 31){
+    alert("Day does not exist");
+  }
+  else if (MM < 1 || MM > 12 || MM == 2 && MD > 29){
+    alert("Month does not exist");
+  }
+  else if ()
+  
 
 
 
