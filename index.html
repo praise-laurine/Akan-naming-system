@@ -1,73 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akan Naming</title>
-    <link href="bootstrap.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <title>AKAN NAMING</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap-4.5.2-dist/css/bootstrap.min.css">
 </head>
-<body>
-    <div class="jumbotron">
-      <h1>Akan naming system</h1> 
-    </div>
-    <div class="bwd">
-      <p>The <strong>Akan</strong> people of <strong>Ghana</strong> frequently name their children after the day of the week they were born and the order in which they were born.<br> These "day names" have further meanings concerning the soul and character of the person.<br> Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.This brings out a symbol of cultural integrity and ancestral affiliation.</p>
-    <img class="akan" src="/images/akanchild.jpg" height="500px" width="500px">  
-    </div>
-    <h1 class="system">The System</h1>
-    <div class="system">
-      <p>The Akan people use the Kwa language group’s system of timekeeping, which is based on a six-day week (‘nnanson‘), with the seventh day inclusive.<br> In Ashanti homes, Sunday-born males and females are named Kwasi or Kwesi and Akosua respectively (meaning ‘associated with the universe’); Monday-born are Kwadwo or Kojo, Adjoa or Adwoa (meaning ‘associated with peace’); <br>Tuesday-born are Kwabena or Kobi, Abena (meaning ‘associated with the ocean’); Wednesday-born Kwaku or Kweku, Akua (meaning ‘associated with spider/Ananse’); Thursday-born Yaw, Yaa ( meaning ‘associated with the earth’);<br> Friday-born Kofi, Afia or Afua (meaning ‘associated with fertility’); and Saturday-born Kwame, Ama (meaning ‘associated with God’).<br>
 
-        Fanti boys and girls, on the other hand, are given the day names: Monday – Cudjoe, Kojo, Quajo, Adjoa, Ajuba, Juba;<br> Tuesday – Quabena, Abena, Bena; Wednesday – Quaco, Aqua, Acooba, Cooba; Thursday – Quaw, Aba, Yaaba; <br>Friday – Cuffy, Afiba, Fiba; Saturday – Quame, Quamina, Ama; and Sunday – Quashie, Quasheba.</p>
-    </div>
-    <div class="row">
-      <div class="column">
-        <img src="/images/ama.jpg" height="400px" width="400px">
-      </div>
-      <div class="column">
-        <img src="/images/kofi.jpeg" height="400px" width="400px">
-      </div>
-      <div class="column">
-        <img src="/images/kojo.jpg" height="400px" width="400px">
-      </div>
-    </div>
-    <p class="ghana">Imagine you were in Ghana and you want<br> to know what your Akan name<br> would be. Fill the form to see the magic!</p>
-    <div class="card">
-      <div class="card-body">
-        <h2>Please fill out this form to know your Akan name:</h2>
-        <form>
-          <div class="form-group">
-            <label for="century">Century</label>
-            <input type="number" class="form-control" id="century" placeholder="Enter the century you were born" required min="0" max="30">
-          </div>
-          <div class="form-group">
-            <label for="year">Year</label>
-            <input type="number" class="form-control" id="year" placeholder="Enter the year of birth" required min="0" max="100">
-          </div>
-          <div class="form-group">
-            <label for="month">Month</label>
-            <input type="number" class="form-control" id="month" placeholder="Enter month of the year" required min="0" max="12">
-          </div>
-          <div class="form-group">
-            <label for="monthDay">Day of month</label>
-            <input type="number" class="form-control" id="monthDay" placeholder="Enter day of month of birth" required min="0" max="31">
-          </div>
-          <form class="radio-button">
-            <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
-            <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
-          </form>
-           <a href="#result"><button type="submit" name="submit" class="btn btn-primary" onclick="checkDayOfWeek();">Submit</button></a>
-          <h1 id="result"></h1>
-        </form>
+<body>
+    <div class="container-fluid">
+
+        <img src="./images/akan logo.png" alt="" height="100px">
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1>WELCOME TO AKAN NAMING SYSTEM</h1>
+                <h2>Get your Akan Name By Filling The Form Below!</h2>
+                <h3>Description</h3>
+                <div id="desk">
+                <p>The Akan people use the Kwa language group’s system of timekeeping, which is based on a six-day week (‘nnanson‘), with the seventh day inclusive. In Ashanti homes, Sunday-born males and females are named Kwasi or Kwesi and Akosua respectively (meaning ‘associated with the universe’); Monday-born are Kwadwo or Kojo, Adjoa or Adwoa (meaning ‘associated with peace’); Tuesday-born are Kwabena or Kobi, Abena (meaning ‘associated with the ocean’); Wednesday-born Kwaku or Kweku, Akua (meaning ‘associated with spider/Ananse’); Thursday-born Yaw, Yaa ( meaning ‘associated with the earth’); Friday-born Kofi, Afia or Afua (meaning ‘associated with fertility’); and Saturday-born Kwame, Ama (meaning ‘associated with God’).</p>
+                </div>
+            </div>
+            <div class="form">
+                <form>
+                    <div class="form-group top-form">
+                        <label for="century" class="labels">Century</label>
+                        <input type="number" class="form-control" placeholder="Enter the century" id="century" required
+                            min="0" max="30">
+                    </div>
+                    <div class="form-group">
+                        <label for="year" class="labels">Year</label>
+                        <input type="number" placeholder="Enter the year" class="form-control" id="year" required
+                            min="0" max="100">
+                    </div>
+                    <div class="form-group">
+                        <label for="month" class="labels">Month</label>
+                        <input type="number" class="form-control" placeholder="Enter the month of the year" id="month"
+                            required min="0" max="12">
+                    </div>
+                    <div class="form-group">
+                        <label for="monthDay" class="labels">Day of month</label>
+                        <input type="number" placeholder="Enter the day of the month" class="form-control" id="monthday"
+                            required min="0" max="12">
+                    </div>
+                    <form class="radio-button">
+                        <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
+                        <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
+                    </form>
+                    <br>
+                    <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2"
+                            onclick="checkDayOfWeek();">submit</button></a>
+                    <h1 id="result"></h1>
+
+                </form>
+            </div>
         </div>
-        <div class="card-footer">
-          <p>Thank You</p><br><br>
-      </div>
-      </div>
-    
-<script src="js/script.js" async defer></script>
+    </div>
+    </div>
+    </div>
+    <footer class="page-footer ">
+        <div class="footer-copyright text-center py-3">Copyright © 2020:
+            <a href="https://github.com/praise-laurine/akan-naming-system.git/">https://github.com/praise-laurine/akan-naming-system.git</a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
