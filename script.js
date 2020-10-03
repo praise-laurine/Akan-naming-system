@@ -21,7 +21,12 @@ function checkDayOfWeek() {
   else if (MM < 1 || MM > 12 || MM == 2 && MD > 29){
     alert("Month does not exist");
   }
-  else if ()
+  else if (CC < 0 || CC > 30){
+    alert("Century not valid");
+}
+  else if (YY <0 || YY > 100){
+  alert("Year does not exist");
+}
   
 
 
