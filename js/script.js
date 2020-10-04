@@ -111,7 +111,7 @@ function checkGender(){
               }
               break
               default: {
-                alert("Input the all data Please!")
+                alert("Input all data Please!")
               }
     }
 }

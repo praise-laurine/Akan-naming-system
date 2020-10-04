@@ -42,7 +42,13 @@ p{
 }
 body{
   font-size: 20px;
+  background-image: url(/images/gradient.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 form{
   font-size: 20px;
+}
+.page-footer{
+  background-color: hotpink;
 }
